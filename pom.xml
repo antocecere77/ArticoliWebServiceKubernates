@@ -67,7 +67,7 @@
                 <configuration>
                     <dockerHost>unix:///var/run/docker.sock</dockerHost>
                     <verbose>true</verbose>
-                    <registry>registry.hub.docker.com/nlarocca</registry>
+                    <registry>registry.hub.docker.com/antocecere77</registry>
                     <images>
                         <image>
                             <name>${project.name}:${project.version}</name>
@@ -75,7 +75,7 @@
                             <build>
                                 <from>openjdk:8-jdk-alpine</from>
 
-                                <maintainer>Nicola La Rocca nicola_larocca@xantrix.it</maintainer>
+                                <maintainer>Antonio Cecere</maintainer>
 
                                 <ports>
                                     <port>5051</port>
@@ -105,8 +105,8 @@
                         </image>
                     </images>
                     <authConfig>
-                        <username>userid</username>
-                        <password>pwd</password>
+                        <username>antocecere77</username>
+                        <password>******</password>
                     </authConfig>
                 </configuration>
                 <executions>
